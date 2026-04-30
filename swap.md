@@ -7,6 +7,8 @@ find a line like :
 ```
 GRUB_CMD_LINUX_DEFAULT="loglevel=4 "
 ```
+make sure its uncommented so without a # at the start
+
 and just add 
 ```
 GRUB_CMD_LINUX_DEFAULT="loglevel=4 hid_apple.swap_fn_leftctrl=1"
